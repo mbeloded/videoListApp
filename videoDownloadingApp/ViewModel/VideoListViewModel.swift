@@ -8,9 +8,14 @@
 
 import UIKit
 
-struct VideoListViewModel {
+final class VideoListViewModel {
+    
     weak var dataSource : GenericDataSource<Story>?
     weak var service: VideoServiceProtocol?
+    
+    private var currentPage = 1
+    private var total = 0
+    private var isFetchInProgress = false
     
     init(service: VideoServiceProtocol = VideoService.shared, dataSource : GenericDataSource<Story>?) {
         self.dataSource = dataSource
@@ -24,23 +29,46 @@ struct VideoListViewModel {
             return
         }
         
-        service.fetchVideos { result in
-            
-            DispatchQueue.main.async {
-                switch result {
-                case .success(let recent) :
-                    // reload data
-                    self.dataSource?.data.value = recent.body.stories
-                    completion?(Result.success(true))
-                    
-                    break
-                case .failure(let error) :
-                    print("Parser error \(error)")
-                    completion?(Result.failure(error))
-                    
-                    break
-                }
-            }
+        guard !isFetchInProgress else {
+            return
         }
+        
+        isFetchInProgress = true
+        
+        service.fetchVideos( currentPage, completion: { result in
+            
+            switch result {
+            case .success(let response) :
+                
+                DispatchQueue.main.async {
+                    
+                    // 1
+                    self.isFetchInProgress = false
+                    self.total = response.body.total
+                    
+                    // 2
+                    // reload data
+                    self.dataSource?.data.value.append(contentsOf: response.body.stories)
+                    
+                    if self.currentPage > 1 {
+                        completion?(Result.success(true))//send collection of index pathes to reload
+                    } else {
+                        completion?(Result.success(true))
+                    }
+                    self.currentPage += 1
+                }
+                break
+            case .failure(let error) :
+                
+                DispatchQueue.main.async {
+                    print("Parser error \(error)")
+                    
+                    self.isFetchInProgress = false
+                    completion?(Result.failure(error))
+                }
+                break
+            }
+            
+        })
     }
 }

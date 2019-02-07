@@ -35,15 +35,12 @@ extension BodyRecent: Parceable {
         if let total = dictionary["total_stories"] as? Int,
             let stories = dictionary["stories"] as? [String: Double] {
             
-//            let finalRates : [CurrencyRate] = rates.flatMap({ CurrencyRate(currencyIso: $0.key, rate: $0.value) })
-//            let conversion = Converter(base: base, date: date, rates: finalRates)
-
             let stories: [Story] = [Story]()//stories.flatMap({ Story() })
             
             let bodyRecent = BodyRecent(stories: stories, total: total)
             return Result.success(bodyRecent)
         } else {
-            return Result.failure(ErrorResult.parser(string: "Unable to parse conversion rate"))
+            return Result.failure(ErrorResult.parser(string: "Unable to parse"))
         }
     }
 }
