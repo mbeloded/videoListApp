@@ -9,16 +9,8 @@
 import UIKit
 
 struct Alert {
-//    private static func showBasicAlert(on vc: UIViewController, with title: String, message: String) {
-//        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-//        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-//
-//        DispatchQueue.main.async {
-//            vc.present(alert, animated: true)
-//        }
-//    }
     
-    private static func showBasicAlert(on vc: UIViewController, with title: String, message: String, cancelTitle: String? = nil, otherTitle: String? = nil, completion: (()->())? = nil, failure: (()->())? = nil) {
+    private static func showBasicAlert(on vc: UIViewController, with title: String, message: String, cancelTitle: String? = "OK", otherTitle: String? = nil, completion: (()->())? = nil, failure: (()->())? = nil) {
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         if let _otherTitle = otherTitle {
@@ -42,7 +34,16 @@ struct Alert {
         showBasicAlert(on: vc, with: "Request error", message: errorMsg)
     }
     
-    static func showAlert(on vc: UIViewController, title: String = "", msg: String = "", cancelTitle: String? = nil, otherTitle: String? = nil, completion: (()->())? = nil, failure: (()->())? = nil) {
+    static func showAlert(on vc: UIViewController, title: String = "", msg: String = "", cancelTitle: String? = "OK", otherTitle: String? = nil, completion: (()->())? = nil, failure: (()->())? = nil) {
         showBasicAlert(on: vc, with: title, message: msg, cancelTitle: cancelTitle, otherTitle: otherTitle, completion: completion, failure: failure)
+    }
+    
+    static func showActionSheet(on vc: UIViewController, title: String = "", msg: String = "", actions: [UIAlertAction], completion: (()->())? = nil) {
+        
+        let alertController = UIAlertController(title: title, message: msg, preferredStyle: .actionSheet)
+        actions.forEach { (action) in
+            alertController.addAction(action)
+        }
+        vc.present(alertController, animated: true, completion: completion)
     }
 }

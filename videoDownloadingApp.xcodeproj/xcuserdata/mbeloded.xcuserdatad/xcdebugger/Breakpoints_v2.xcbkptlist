@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/ViewModel/VideoListDataSource.swift"
-            timestampString = "571600310.986412"
+            timestampString = "571604503.611665"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/ViewModel/VideoListDataSource.swift"
-            timestampString = "571600310.98657"
+            timestampString = "571604503.612417"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/ViewModel/VideoListDataSource.swift"
-            timestampString = "571600310.986643"
+            timestampString = "571604503.61251"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/VIew/VideoTableViewCell.swift"
-            timestampString = "571312274.595297"
+            timestampString = "571604503.612579"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/Helper/UIImageView+Extension.swift"
-            timestampString = "571312274.595358"
+            timestampString = "571604503.612709"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
@@ -234,7 +234,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/Helper/UIImageView+Extension.swift"
-            timestampString = "571312274.595733"
+            timestampString = "571604503.612958"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
@@ -250,7 +250,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/Helper/UIImageView+Extension.swift"
-            timestampString = "571312274.595791"
+            timestampString = "571604503.613029"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
@@ -266,7 +266,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/Helper/UIImageView+Extension.swift"
-            timestampString = "571312274.595845"
+            timestampString = "571604503.613094"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -282,7 +282,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/Helper/UIImageView+Extension.swift"
-            timestampString = "571312274.595899"
+            timestampString = "571604503.6131589"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -378,7 +378,7 @@
                   moduleName = "videoDownloadingApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mbeloded/Documents/workspace/videoDownloadingApp/videoDownloadingApp/ViewModel/VideoListViewModel.swift"
-                  timestampString = "571600311.426739"
+                  timestampString = "571604401.317632"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "92"
@@ -393,7 +393,7 @@
                   moduleName = "videoDownloadingApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mbeloded/Documents/workspace/videoDownloadingApp/videoDownloadingApp/ViewModel/VideoListViewModel.swift"
-                  timestampString = "571600311.4290709"
+                  timestampString = "571604401.3202831"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "92"
@@ -438,11 +438,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/ViewController.swift"
-            timestampString = "571600310.987307"
+            timestampString = "571604503.6135319"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -490,7 +490,7 @@
                   moduleName = "videoDownloadingApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mbeloded/Documents/workspace/videoDownloadingApp/videoDownloadingApp/ViewModel/VideoListViewModel.swift"
-                  timestampString = "571600311.458385"
+                  timestampString = "571604401.346804"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "72"
@@ -505,7 +505,7 @@
                   moduleName = "videoDownloadingApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mbeloded/Documents/workspace/videoDownloadingApp/videoDownloadingApp/ViewModel/VideoListViewModel.swift"
-                  timestampString = "571600311.460281"
+                  timestampString = "571604401.350101"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "73"
@@ -538,7 +538,7 @@
                   moduleName = "videoDownloadingApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mbeloded/Documents/workspace/videoDownloadingApp/videoDownloadingApp/ViewModel/VideoListViewModel.swift"
-                  timestampString = "571600311.4660881"
+                  timestampString = "571604401.357571"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "48"
@@ -553,7 +553,7 @@
                   moduleName = "videoDownloadingApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/mbeloded/Documents/workspace/videoDownloadingApp/videoDownloadingApp/ViewModel/VideoListViewModel.swift"
-                  timestampString = "571600311.467847"
+                  timestampString = "571604401.3607579"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "51"
@@ -586,11 +586,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/Helper/Alert.swift"
-            timestampString = "571600310.988022"
+            timestampString = "571604503.613819"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "showBasicAlert(on:with:message:cancelTitle:otherTitle:completion:failure:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -602,7 +602,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/Helper/MediaHelper.swift"
-            timestampString = "571600310.9881001"
+            timestampString = "571604503.613902"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
@@ -618,7 +618,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/Helper/MediaHelper.swift"
-            timestampString = "571600310.988171"
+            timestampString = "571604503.613974"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -634,7 +634,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/Helper/MediaHelper.swift"
-            timestampString = "571600310.988238"
+            timestampString = "571604503.614056"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -650,139 +650,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/ViewController.swift"
-            timestampString = "571600310.988305"
+            timestampString = "571604503.614135"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "longPressAction()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "videoDownloadingApp/ViewController.swift"
-            timestampString = "571600310.988701"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "longPressAction()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "videoDownloadingApp/ViewController.swift"
-            timestampString = "571600310.989006"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "longPressAction()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in videoDownloadingApp.ViewController.longPressAction() -&gt; ()"
-                  moduleName = "videoDownloadingApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mbeloded/Documents/workspace/videoDownloadingApp/videoDownloadingApp/ViewController.swift"
-                  timestampString = "571600311.508306"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "77"
-                  endingLineNumber = "77"
-                  offsetFromSymbolStart = "126">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (videoDownloadingApp.Result&lt;Swift.Bool, videoDownloadingApp.ErrorResult&gt;) -&gt; () in closure #1 () -&gt; () in videoDownloadingApp.ViewController.longPressAction() -&gt; ()"
-                  moduleName = "videoDownloadingApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mbeloded/Documents/workspace/videoDownloadingApp/videoDownloadingApp/ViewController.swift"
-                  timestampString = "571600311.510438"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "78"
-                  endingLineNumber = "78"
-                  offsetFromSymbolStart = "86">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "videoDownloadingApp/ViewController.swift"
-            timestampString = "571600310.9893219"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "longPressAction()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "videoDownloadingApp.ViewController.longPressAction() -&gt; ()"
-                  moduleName = "videoDownloadingApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mbeloded/Documents/workspace/videoDownloadingApp/videoDownloadingApp/ViewController.swift"
-                  timestampString = "571600311.5161"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "72"
-                  endingLineNumber = "72"
-                  offsetFromSymbolStart = "105">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in videoDownloadingApp.ViewController.longPressAction() -&gt; ()"
-                  moduleName = "videoDownloadingApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mbeloded/Documents/workspace/videoDownloadingApp/videoDownloadingApp/ViewController.swift"
-                  timestampString = "571600311.518038"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "72"
-                  endingLineNumber = "72"
-                  offsetFromSymbolStart = "44">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "videoDownloadingApp/ViewController.swift"
-            timestampString = "571600310.989593"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -794,28 +666,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/ViewController.swift"
-            timestampString = "571600310.989869"
+            timestampString = "571604503.614215"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "tableView(_:didSelectRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "videoDownloadingApp/ViewController.swift"
-            timestampString = "571600310.9901741"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
-            landmarkName = "longPressAction()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -826,7 +682,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/Helper/MediaHelper.swift"
-            timestampString = "571600310.990494"
+            timestampString = "571604503.6142941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -842,7 +698,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/Helper/MediaHelper.swift"
-            timestampString = "571600310.990572"
+            timestampString = "571604503.614364"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
@@ -858,11 +714,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "videoDownloadingApp/ViewController.swift"
-            timestampString = "571600348.402017"
+            timestampString = "571604503.6144331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>

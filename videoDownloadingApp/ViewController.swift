@@ -65,50 +65,55 @@ class ViewController: UITableViewController {
     
     @objc func longPressAction() {
         
-        guard let _playerVC = playerVC else {
+        guard let playerVC = playerVC else {
             return
         }
         
-        Alert.showAlert(on: _playerVC, title: "Would you like to save this video to library?", cancelTitle: "Cancel", otherTitle: "Save to the camera roll", failure: { [weak self] in
-            guard let self = self else {
-                return
-            }
-            
-            MediaHelper.shared.saveVideoFile(from: "", completion: { (result) in
+        let positiveAction = UIAlertAction(title: "Yes", style: .default, handler: { _ in
+            MediaHelper.shared.saveVideoFile(from: "", completion: { [weak self] (result) in
+                
+                guard let self = self, let playerVC = self.playerVC else {
+                    return
+                }
+                
                 switch result {
-                    case .success(let isSuccess) :
-                        
-                        Alert.showAlert(on: self, msg: isSuccess ? "Video Saved" : "Unable to save the video")
-                        
+                case .success(let isSuccess) :
+                    
+                    Alert.showAlert(on: playerVC, msg: isSuccess ? "Video Saved" : "Unable to save the video")
+                    
                     break
-                    case .failure(let error) :
-                        Alert.showAlert(on: self, msg: error.localizedDescription)
+                case .failure(let error) :
+                    Alert.showAlert(on: playerVC, msg: error.localizedDescription)
                     break
                 }
             })
-
         })
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        
+        Alert.showActionSheet(on: playerVC, msg: "Save this video to library?", actions: [positiveAction, cancelAction])
         
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let player = MediaHelper.shared.showVideoPlayer(with: dataSource.data.value[indexPath.row].videoFiles.mp4)
+        tableView.deselectRow(at: indexPath, animated: true)
         
-        guard let _player = player else {
+        guard let player = MediaHelper.shared.showVideoPlayer(with: dataSource.data.value[indexPath.row].videoFiles.mp4) else {
             return
         }
         
         let longPressGestureRecognizer = UILongPressGestureRecognizer(target: self, action: #selector(longPressAction))
-        _player.view.addGestureRecognizer(longPressGestureRecognizer)
+        longPressGestureRecognizer.numberOfTouchesRequired = 1
+        player.view.addGestureRecognizer(longPressGestureRecognizer)
         
-        present(_player, animated: true) {
-            self.playerVC = _player
+        present(player, animated: true) {
+            self.playerVC = player
         }
         
     }
     
-    public func setupTableView() {
+    private func setupTableView() {
         
         // Add Refresh Control to Table View
         

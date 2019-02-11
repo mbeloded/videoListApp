@@ -36,6 +36,9 @@ class VideoTableViewCell: UITableViewCell {
     @IBOutlet weak var thumbnailImageView: UIImageView! {
         didSet {
             //setup the border line
+            thumbnailImageView.layer.borderColor = UIColor.gray.cgColor
+            thumbnailImageView.layer.borderWidth = 3
+            thumbnailImageView.layer.cornerRadius = 5
         }
     }
     
