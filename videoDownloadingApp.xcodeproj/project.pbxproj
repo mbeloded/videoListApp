@@ -38,6 +38,7 @@
 		46A11C7D220C26A400FF7589 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A11C7C220C26A400FF7589 /* Common.swift */; };
 		46A11C7F220C641100FF7589 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A11C7E220C641100FF7589 /* Date+Extension.swift */; };
 		46A11C81220C681B00FF7589 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A11C80220C681B00FF7589 /* DateFormatter+Extension.swift */; };
+		46EA3B5A221148B40032FE49 /* MediaHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EA3B59221148B40032FE49 /* MediaHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		46A11C7C220C26A400FF7589 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		46A11C7E220C641100FF7589 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		46A11C80220C681B00FF7589 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
+		46EA3B59221148B40032FE49 /* MediaHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,12 +216,14 @@
 		46A11C3B220720F600FF7589 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				46A11C7A220B780000FF7589 /* ParserHelper.swift */,
 				46A11C3D2207211800FF7589 /* Alert.swift */,
 				46A11C5122074ABD00FF7589 /* UIImageView+Extension.swift */,
 				46A11C5F2208C10F00FF7589 /* UITableViewCell+Extension.swift */,
 				46A11C632208E04B00FF7589 /* String+Extension.swift */,
 				46A11C7E220C641100FF7589 /* Date+Extension.swift */,
 				46A11C80220C681B00FF7589 /* DateFormatter+Extension.swift */,
+				46EA3B59221148B40032FE49 /* MediaHelper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -232,7 +236,6 @@
 				46A11C6B2208F57C00FF7589 /* Result.swift */,
 				46A11C6D2208F59D00FF7589 /* ErrorResult.swift */,
 				46A11C6F2208F77B00FF7589 /* RequestHandler.swift */,
-				46A11C7A220B780000FF7589 /* ParserHelper.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				46A11C5E2208BF6D00FF7589 /* VideoListItemViewModel.swift in Sources */,
 				46A11C602208C10F00FF7589 /* UITableViewCell+Extension.swift in Sources */,
 				46A11C7B220B780000FF7589 /* ParserHelper.swift in Sources */,
+				46EA3B5A221148B40032FE49 /* MediaHelper.swift in Sources */,
 				46A11C4A2207442F00FF7589 /* Thumbnails.swift in Sources */,
 				46A11C4F2207473D00FF7589 /* VideoTableViewCell.swift in Sources */,
 				46A11C3E2207211800FF7589 /* Alert.swift in Sources */,

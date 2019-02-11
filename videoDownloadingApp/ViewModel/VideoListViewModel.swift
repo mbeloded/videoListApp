@@ -12,6 +12,7 @@ final class VideoListViewModel {
     
     weak var dataSource : GenericDataSource<Story>?
     weak var service: VideoServiceProtocol?
+    var newIndexPathsToReload: [IndexPath]?
     
     private var currentPage = 1
     private var total = 0
@@ -20,6 +21,10 @@ final class VideoListViewModel {
     init(service: VideoServiceProtocol = VideoService.shared, dataSource : GenericDataSource<Story>?) {
         self.dataSource = dataSource
         self.service = service
+    }
+    
+    var currentCount: Int {
+        return self.dataSource?.data.value.count ?? 0
     }
     
     func fetchVideos(_ completion: ((Result<Bool, ErrorResult>) -> Void)? = nil) {
@@ -51,11 +56,15 @@ final class VideoListViewModel {
                     self.dataSource?.data.value.append(contentsOf: response.body.stories)
                     
                     if self.currentPage > 1 {
+                        let indexPathsToReload = self.calculateIndexPathsToReload(from: response.body.stories)
+                        self.newIndexPathsToReload = indexPathsToReload
                         completion?(Result.success(true))//send collection of index pathes to reload
                     } else {
+                        self.newIndexPathsToReload = .none
                         completion?(Result.success(true))
                     }
                     self.currentPage += 1
+                    
                 }
                 break
             case .failure(let error) :
@@ -70,5 +79,16 @@ final class VideoListViewModel {
             }
             
         })
+    }
+    
+    private func calculateIndexPathsToReload(from newStories: [Story]) -> [IndexPath] {
+        
+        guard let _values = self.dataSource?.data.value else {
+            return [IndexPath(row: 0, section: 0)]
+        }
+        
+        let startIndex = _values.count - newStories.count
+        let endIndex = startIndex + newStories.count
+        return (startIndex..<endIndex).map { IndexPath(row: $0, section: 0) }
     }
 }
